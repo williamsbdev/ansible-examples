@@ -1,0 +1,9 @@
+---
+
+- hosts: localhost
+  connection: local
+  vars:
+    variable_three: 'set-via-vars-in-playbook'
+  tasks:
+    - debug:
+        var: variable_three
