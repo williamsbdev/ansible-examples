@@ -14,11 +14,11 @@ Make sure to build [base image] (used for all examples).
 
 #### Build Docker image
 
-    docker build -t example-one -f examples/one/Dockerfile .
+    docker build -t example-01 -f examples/01/Dockerfile .
 
 #### Run
 
-    docker run example-one
+    docker run example-01
 
 ### Example 2
 
@@ -26,11 +26,11 @@ Make sure to build [base image] (used for all examples).
 
 #### Build Docker image
 
-    docker build -t example-two -f examples/two/Dockerfile .
+    docker build -t example-02 -f examples/02/Dockerfile .
 
 #### Run
 
-    docker run example-two
+    docker run example-02
 
 ### Example 3
 

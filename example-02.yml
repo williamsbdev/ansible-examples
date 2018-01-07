@@ -3,7 +3,7 @@
 - hosts: localhost
   connection: local
   vars:
-    variable_two: 'still-set-via-command-line'
+    variable_two: 'set-via-vars-in-playbook'
   tasks:
     - debug:
         var: variable_two
