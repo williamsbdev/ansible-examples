@@ -5,6 +5,8 @@
   vars:
     variable_four: 'set-via-vars-in-playbook'
   tasks:
+    - debug:
+        var: variable_four
     - set_fact:
         variable_four: 'set-via-set-fact'
     - debug:
