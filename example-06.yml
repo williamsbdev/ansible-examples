@@ -1,0 +1,12 @@
+---
+
+- hosts: localhost
+  connection: local
+  vars:
+    variable_include_vars_six: 'set-via-vars-in-playbook'
+  tasks:
+    - debug:
+        var: variable_include_vars_six
+    - include_vars: 'variable_include_vars_six.yml'
+    - debug:
+        var: variable_include_vars_six
