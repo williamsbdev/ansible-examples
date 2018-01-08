@@ -1,0 +1,11 @@
+---
+
+- hosts: localhost
+  connection: local
+  tasks:
+    - debug:
+        var: variable_nine
+    - set_fact:
+        variable_nine: 'set-via-set-fact'
+    - debug:
+        var: variable_nine
