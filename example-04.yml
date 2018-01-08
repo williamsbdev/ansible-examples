@@ -1,0 +1,11 @@
+---
+
+- hosts: localhost
+  connection: local
+  vars:
+    variable_four: 'set-via-vars-in-playbook'
+  tasks:
+    - set_fact:
+        variable_four: 'set-via-set-fact'
+    - debug:
+        var: variable_four

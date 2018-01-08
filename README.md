@@ -44,4 +44,16 @@ Make sure to build [base image] (used for all examples).
 
     docker run example-03
 
+### Example 4
+
+Make sure to build [base image] (used for all examples).
+
+#### Build Docker image
+
+    docker build -t example-04 -f examples/04/Dockerfile .
+
+#### Run
+
+    docker run example-04
+
 [base image]: https://github.com/williamsbdev/ansible-examples#build-base-image-for-all-examples-using-ansible-2200
