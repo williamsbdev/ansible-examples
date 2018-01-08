@@ -68,17 +68,17 @@ Make sure to build [base image] (used for all examples).
 
     docker run example-05
 
-### Example 7
+### Example 6
 
 Make sure to build [base image] (used for all examples).
 
 #### Build Docker image
 
-    docker build -t example-07 -f examples/07/Dockerfile .
+    docker build -t example-06 -f examples/06/Dockerfile .
 
 #### Run
 
-    docker run example-07
+    docker run example-06
 
 ### Example 7
 
