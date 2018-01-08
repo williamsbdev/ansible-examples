@@ -1,0 +1,6 @@
+---
+
+- debug:
+    msg: 'role'
+- debug:
+    var: variable_ten

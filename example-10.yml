@@ -1,0 +1,16 @@
+---
+
+- hosts: localhost
+  connection: local
+  pre_tasks:
+    - debug:
+        msg: 'pre-tasks'
+    - debug:
+        var: variable_ten
+  roles:
+    - role: variable_role
+  tasks:
+    - debug:
+        msg: 'tasks'
+    - debug:
+        var: variable_ten
