@@ -1,0 +1,13 @@
+---
+
+- hosts: localhost
+  connection: local
+  tasks:
+    - debug:
+        var: variable_include_vars_seven
+    - include_vars: 'first_variable_include_vars_seven.yml'
+    - debug:
+        var: variable_include_vars_seven
+    - include_vars: 'second_variable_include_vars_seven.yml'
+    - debug:
+        var: variable_include_vars_seven
