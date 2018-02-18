@@ -128,4 +128,17 @@ Make sure to build [base image] (used for all examples).
 
     docker run example-10
 
+### Run tests for project
+
+Make sure to build [base image] (used for all examples/tests).
+
+#### Build Docker image
+
+    docker build -t ansible-example-tests -f tests/Dockerfile .
+
+#### Run
+
+    docker run ansible-example-tests
+
+
 [base image]: https://github.com/williamsbdev/ansible-examples#build-base-image-for-all-examples-using-ansible-2200
